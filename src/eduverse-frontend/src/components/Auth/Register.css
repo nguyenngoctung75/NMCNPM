@@ -1,0 +1,98 @@
+/* CSS riêng cho Register component. */
+
+.register-page {
+    background-color: #f0f4f8; /* Xanh nhạt */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.register-heading {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bo góc */
+    box-sizing: border-box;
+}
+
+.register-terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-terms input[type="checkbox"] {
+    width: 13px; /* Chiều rộng của ô checkbox */
+    height: 13px; /* Chiều cao của ô checkbox */
+    margin-right: 0px; /* Tạo khoảng cách giữa checkbox và label */
+}
+
+.register-terms label {
+    margin-left: 10px;
+    color: #555;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333; /* Nút màu đen */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bo góc */
+    cursor: not-allowed; /* Mặc định không cho phép click */
+    font-size: 1.1rem;
+}
+
+.register-button.active {
+    cursor: pointer; /* Cho phép click khi tích điều khoản */
+    background-color: #333;
+}
+
+.register-button.disabled {
+    background-color: #bbb; /* Màu xám khi chưa tích điều khoản */
+}
+
+.register-links {
+    margin-top: 20px;
+}
+
+.register-links p {
+    margin: 10px 0;
+}
+
+.register-links a {
+    color: #007BFF; /* Màu xanh đậm cho liên kết */
+    text-decoration: none;
+}
+
+.register-links a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}

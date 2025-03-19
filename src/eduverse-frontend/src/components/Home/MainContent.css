@@ -1,0 +1,113 @@
+.main-content {
+    padding: 100px 0; /* Khoảng cách từ ảnh bìa */
+  }
+  
+  /* Phần giới thiệu nhanh */
+  .quick-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .intro-card {
+    background: white;
+    border-radius: 15px; /* Bo góc */
+    padding: 20px;
+    text-align: center;
+    width: 23%; /* Để 4 bảng có khoảng cách đều nhau */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .intro-card:hover {
+    transform: translateY(-10px); /* Hiệu ứng nâng lên khi hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .intro-card:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách ở bảng cuối cùng */
+  }
+  
+  .intro-image {
+    width: 100%;
+    border-radius: 10px; /* Bo góc */
+    margin-bottom: 15px;
+  }
+  
+  .intro-card h3 {
+    font-size: 1.4rem; /* Tăng kích thước tiêu đề */
+    margin-bottom: 10px;
+    color: #333; /* Chữ đậm hơn */
+  }
+  
+  .intro-card p {
+    color: gray;
+    font-size: 1rem; /* Tăng kích thước chữ */
+    text-align: right;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: purple;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.7;
+  }
+  
+  /* Phần nhận xét */
+  .reviews {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .review-card {
+    background: white;
+    border-radius: 15px; /* Bo góc */
+    padding: 20px;
+    text-align: left;
+    width: 23%; /* Để 4 bảng cách đều nhau */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-10px); /* Hiệu ứng nâng lên khi hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .review-card:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách ở bảng cuối cùng */
+  }
+  
+  .review-text {
+    color: purple;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .reviewer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reviewer-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Khung hình tròn */
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng hình ảnh */
+  }
+  
+  .reviewer-avatar:hover {
+    transform: scale(1.1); /* Hiệu ứng phóng to khi hover */
+  }
+  
+  .reviewer-info {
+    display: flex;
+    flex-direction: column;
+  }  

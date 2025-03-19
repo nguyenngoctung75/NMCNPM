@@ -1,0 +1,116 @@
+/* MeListLesson.css */
+
+.lesson-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.no-lessons {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.lesson-list {
+  margin-top: 20px;
+}
+
+.lesson-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lesson-header {
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.lesson-header:hover {
+  background-color: #f0f0f0;
+}
+
+.lesson-header.selected {
+  background-color: #e8f5e9;
+}
+
+.lesson-header-function {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lesson-order {
+  font-weight: bold;
+  color: #555;
+}
+
+.lesson-title {
+  font-size: 16px;
+  color: #333;
+  padding-left: 4px;
+}
+
+.lesson-details {
+  padding: 15px;
+  background-color: #fafafa;
+  border-top: 1px solid #eee;
+}
+
+.document-item, .assignment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.document-item-btn, .assignment-header-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.assignment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.document-item:last-child {
+  border-bottom: none;
+}
+
+.btn-lesson {
+  font-size: 14px;
+  background-color: purple; /* Nền tím */
+  color: white; /* Chữ trắng */
+  border: none; /* Loại bỏ viền */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  border-radius: 5px; /* Bo góc */
+  margin: 0 5px; /* Khoảng cách giữa các nút */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  cursor: pointer; /* Thay đổi con trỏ khi hover */
+  width: 80px;
+}
+
+.btn-lesson:hover {
+  background-color: #1976d2;
+}
+
+

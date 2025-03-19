@@ -1,0 +1,22 @@
+export const courses = [
+    { id: 1, name: 'React Basics', description: 'Learn the basics of React', teacher: 'John Doe', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 2, name: 'Advanced React', description: 'Dive deeper into React', teacher: 'Jane Smith', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 3, name: 'JavaScript for Beginners', description: 'Introduction to JavaScript', teacher: 'John Doe', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 4, name: 'Web Development', description: 'Full stack web development', teacher: 'Alice Johnson', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 5, name: 'Python for Data Science', description: 'Learn Python for data analysis', teacher: 'Bob Brown', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 6, name: 'Machine Learning', description: 'Introduction to machine learning', teacher: 'Charlie Clark', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 7, name: 'Digital Marketing', description: 'Learn the fundamentals of digital marketing', teacher: 'Diana Dorsey', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 8, name: 'Graphic Design', description: 'Basics of graphic design', teacher: 'Eve Evans', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 9, name: 'Photography Masterclass', description: 'Become a master in photography', teacher: 'Frank Foster', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 10, name: 'Music Theory', description: 'Understand the fundamentals of music', teacher: 'Grace Green', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 11, name: 'Financial Accounting', description: 'Learn the basics of financial accounting', teacher: 'Henry Hudson', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 12, name: 'Business Strategy', description: 'Develop effective business strategies', teacher: 'Ivy Irving', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 13, name: 'Health and Fitness', description: 'Get fit and stay healthy', teacher: 'Jack Jackson', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 14, name: 'Yoga for Beginners', description: 'Introduction to Yoga', teacher: 'Kelly King', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 15, name: 'Creative Writing', description: 'Unleash your creativity in writing', teacher: 'Laura Lewis', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 16, name: 'Public Speaking', description: 'Overcome fear of public speaking', teacher: 'Mike Miller', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 17, name: 'Project Management', description: 'Learn project management skills', teacher: 'Nina Nelson', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 18, name: 'Cyber Security', description: 'Learn to protect information systems', teacher: 'Oscar Owens', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 19, name: 'Artificial Intelligence', description: 'Introduction to AI concepts', teacher: 'Paul Parker', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' },
+    { id: 20, name: 'Blockchain Basics', description: 'Understand blockchain technology', teacher: 'Quincy Queen', image: 'https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg' }
+  ];  

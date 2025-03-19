@@ -1,0 +1,111 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+}
+
+.profile-loading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: #333;
+}
+
+.profile-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-content:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-avatar:hover {
+    transform: scale(1.1);
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.profile-info img {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.profile-info p span {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-section {
+    margin-top: 40px;
+}
+
+.profile-section h3 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    color: #007bff;
+    font-size: 24px;
+}
+
+.profile-course-list, .profile-notification-list, .profile-payment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-course-item, .profile-notification-item, .profile-payment-item {
+    padding: 15px;
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.profile-course-item:hover, .profile-notification-item:hover, .profile-payment-item:hover {
+    background: #eef7ff;
+}
+
+.profile-course-item p, .profile-notification-item p, .profile-payment-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,205 @@
+/* Toàn bộ danh sách khóa học */
+.course-list {
+    padding: 20px;
+    background-color: #f9f9f9; /* Màu nền */
+    font-family: Arial, sans-serif;
+}
+
+.title-holder {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-holder h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Grid chứa các thẻ khóa học */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 cột */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    padding: 10px;
+}
+
+/* Card khóa học */
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ảnh khóa học */
+.course-card .image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    overflow: hidden;       /* Hide overflow if the image is too large */
+    max-width: 100%;            /* Full width */
+    height: 200px;          /* Set a fixed height or adjust as needed */
+    position: relative;     /* Position relative for absolute positioning of img */
+}
+
+.course-img {
+    max-width: 100%;        /* Limit width to 100% of the container */
+    max-height: 100%;       /* Limit height to 100% of the container */
+    object-fit: cover;      /* Maintain aspect ratio and cover the container */
+    display: block;         /* Remove any inline spacing */
+}
+/* Nội dung khóa học */
+.content {
+    padding: 15px;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Nút hành động */
+.btn-wrapper {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    min-width: 125px; 
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn svg {
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.btn:hover {
+    background-color: #5A2D8A;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+    .course-grid {
+        grid-template-columns: repeat(2, 1fr); /* Chỉ hiển thị 2 cột */
+    }
+}
+
+@media (max-width: 480px) {
+    .course-grid {
+        grid-template-columns: 1fr; /* Hiển thị 1 cột trên màn hình nhỏ */
+    }
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between; /* Chia đều khoảng cách giữa 2 phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px 15px;
+    border-top: 1px solid #ddd; /* Đường phân cách */
+    background-color: #f9f9f9;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 600px 0 600px;
+    gap: 10px;
+}
+
+.page-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: purple;
+    background-color: #fff;
+    border: 1px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-btn:hover {
+    background-color: purple;
+    color: #fff;
+}
+
+.page-btn.active {
+    background-color: purple;
+    color: #fff;
+    border-color: purple;
+}
+
+.page-btn:disabled {
+    cursor: not-allowed;
+    background-color: #f0f0f0;
+    color: #aaa;
+}
+
+.dots {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #666;
+    pointer-events: none;
+}
+
+/* Course Grid Styles */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

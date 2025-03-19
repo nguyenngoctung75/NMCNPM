@@ -1,0 +1,109 @@
+.lessons-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.course-content {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.lesson-list {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.lesson-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.lesson-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lesson-header:hover {
+    background-color: #f1f1f1;
+}
+
+.lesson-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.lesson-order {
+    font-size: 1rem;
+    color: #888;
+}
+
+.material-count {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.assignment-list h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.assignment-list,
+.materials-list {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.assignment-item-content a,
+.material-item-content {
+    padding: 5px 0;
+    cursor: pointer;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.assignment-item-content p {
+    margin-bottom: 16px;
+}
+
+.material-item-content:hover {
+    color:#555
+}
+
+.material-item-content svg {
+    font-size: 18px;
+}
+
+.material-item-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-item-content-item .show{
+    color: #000;
+}
+
+.material-item-content-item .show:last-child{
+    margin-left: 10px;
+}
+
+.material-item-content-item a {
+    color: #000;
+    margin-right: 6px;
+}

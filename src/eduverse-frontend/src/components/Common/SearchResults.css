@@ -1,0 +1,135 @@
+/* SearchResults.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-results-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-results-container h1 {
+  font-size: 36px;
+  color: #444;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  animation: slideInFromLeft 0.5s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.search-results-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.search-result-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-result-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.search-result-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.search-result-item:hover::before {
+  opacity: 1;
+}
+
+.search-result-item img.search-result-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.search-result-item:hover img.search-result-image {
+  transform: scale(1.1);
+}
+
+.search-result-info {
+  padding: 15px 0;
+}
+
+.search-result-info h2 {
+  font-size: 24px;
+  color: #0056b3;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.search-result-info h2:hover {
+  color: #003d7a;
+}
+
+.search-result-info p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.search-result-info p.search-teacher {
+  font-weight: bold;
+  color: #333;
+}
+
+.no-search-results {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}

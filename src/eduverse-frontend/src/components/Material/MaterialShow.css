@@ -1,0 +1,74 @@
+
+/* Trang container */
+.material-video-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề bài học */
+.material-video-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Đoạn text khi tài liệu không phải video */
+.p-tag {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Định dạng iframe video */
+.video-player {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Hiển thị khi đang tải tài liệu */
+.p-tag p {
+    font-size: 18px;
+    color: #000;
+    animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+/* Hiệu ứng loading */
+@keyframes fadeIn {
+    from {
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive thiết kế */
+@media (max-width: 768px) {
+    .material-video-page {
+        padding: 15px;
+    }
+
+    .material-video-page h2 {
+        font-size: 20px;
+    }
+
+    .video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    .p-tag p {
+        font-size: 16px;
+    }
+}

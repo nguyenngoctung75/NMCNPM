@@ -1,0 +1,102 @@
+.footer {
+  background-color: black; /* Nền đen */
+  color: white; /* Chữ trắng */
+  padding: 40px 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.left-column p,
+.middle-column p,
+.right-column p {
+  margin: 5px 0;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.left-column {
+  max-width: 300px; /* Giới hạn độ rộng cột trái */
+}
+
+.middle-column {
+  flex: 2; /* Rộng hơn cột trái */
+}
+
+.right-column {
+  display: flex;
+  flex: 2; /* Hai cột phải bằng nhau */
+  justify-content: space-between;
+}
+
+.footer-right-subcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.footer-logo {
+  width: 80px; /* Kích thước logo */
+  margin-bottom: 10px;
+}
+
+.footer-org-logo {
+  width: 40px; /* Kích thước logo tổ chức */
+}
+
+.footer-heading {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.footer-heading svg {
+  font-size: 16px; /* kích thước icon ban đầu */
+  margin-bottom: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-center {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-organizer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-organizer p {
+  margin-right: 10px;
+}
+
+.footer-small-text {
+  font-size: 0.8rem; /* Cỡ chữ nhỏ hơn bình thường */
+}

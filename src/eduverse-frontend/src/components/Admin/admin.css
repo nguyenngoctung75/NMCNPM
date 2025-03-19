@@ -1,0 +1,89 @@
+/* Tổng thể trang */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+} */
+
+/* Container chính */
+.container-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+.container-main h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #5a0b55;
+}
+
+.container-main h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Danh sách thông tin tổng quan */
+.container-main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.container-main ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-left: 5px solid #5a0b55;
+}
+
+/* Form tạo giáo viên */
+.container-main form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-main form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-main form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5a0b55;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container-main form button:hover {
+    background-color: #820e7a;
+}
+
+/* Thông báo */
+.container-main p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #d9534f;
+    text-align: center;
+}
+
+/* Responsive */
+

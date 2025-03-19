@@ -1,0 +1,65 @@
+/* Nền màu xanh hoặc tím phù hợp với trang web học tập */
+.not-found-page {
+    background-color: #6c63ff; /* Màu tím nhẹ nhàng */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .not-found-content {
+    background-color: white;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .illustration {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .button {
+    background-color: #007BFF; /* Màu xanh dương */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bo góc */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Màu xanh đậm khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  
+  .quote {
+    margin-top: 30px;
+    color: #555;
+    font-size: 1rem;
+  }  
